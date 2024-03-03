@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the webpage -->
+    <title>Youtube Tools</title>
+    <!-- Link to external CSS file -->
+    <link href="popup.css" rel="stylesheet" type="text/css" />
+    <!-- Internal styling for the body -->
+    <style>
+      body {
+        width: 310px;
+        padding: 4px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      .main-text {
+        font-size: 16px;
+        font-weight: 800;
+        color: #da2323;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main heading of the webpage -->
+    <div id="popupHead" class="main-text">
+      <p>Youtube Tools</p>
+    </div>
+    <!-- Small text for acknowledgments -->
+    <small id="thanks"></small>
+
+    <!-- Container for the main content -->
+    <div class="container">
+      <div>
+        <!-- Title for the bookmarks section -->
+        <div class="title">Your bookmarks for this video</div>
+
+        <!-- Container for displaying bookmarks -->
+        <div class="bookmarks" id="bookmarks"></div>
+      </div>
+    </div>
+
+    <!-- Modal for editing notes -->
+    <div id="editModal" class="edit-modal">
+      <div class="edit-modal-content">
+        <!-- Close button for the modal -->
+        <span id="editModalClose" class="edit-modal-close">&times;</span>
+        <!-- Heading for editing note -->
+        <h2>Edit Note</h2>
+        <!-- Textarea for editing the note -->
+        <textarea id="editNoteText" rows="4" style="width: 100%"></textarea>
+        <!-- Button to save the edited note -->
+        <button id="saveEditNote" style="margin-top: 10px">Save</button>
+      </div>
+    </div>
+
+    <!-- Script tag to import JavaScript file -->
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
