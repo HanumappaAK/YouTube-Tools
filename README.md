@@ -4,9 +4,16 @@
 The YouTube Tools Chrome extension enhances your YouTube experience by providing bookmarking functionalities for videos, along with an ad blocker to eliminate ads while watching. With this extension, you can add, delete, and edit video bookmarks, and enjoy uninterrupted viewing without ads.
 
 ![Extension Screenshot](screenshot1.png "Extension Screenshot")
+ Clicking the plus sign indicates adding bookmarks to the video.
+
 ![Extension Screenshot](screenshot2.png "Extension Screenshot")
+No Bookmarks 
+
 ![Extension Screenshot](screenshot3.png "Extension Screenshot")
+With Bookmarks
+
 ![Extension Screenshot](screenshot4.png "Extension Screenshot")
+Edit Bookmarks
 
 ## Features
 - **Video Bookmarking**:
