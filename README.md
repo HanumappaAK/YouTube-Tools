@@ -7,13 +7,10 @@ The YouTube Tools Chrome extension enhances your YouTube experience by providing
  Clicking the plus sign indicates adding bookmarks to the video.
 
 ![Extension Screenshot](screenshot2.png "Extension Screenshot")
-No Bookmarks 
 
 ![Extension Screenshot](screenshot3.png "Extension Screenshot")
-With Bookmarks
 
 ![Extension Screenshot](screenshot4.png "Extension Screenshot")
-Edit Bookmarks
 
 ## Features
 - **Video Bookmarking**:
