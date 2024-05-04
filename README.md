@@ -41,12 +41,12 @@ Click on the "Load unpacked" button, then select the directory where you cloned 
 Once loaded, the extension should appear in your list of installed extensions. Click on the extension icon in the Chrome toolbar to open it.
 
 5. **Using Bookmarking Feature**:
-- To add a bookmark, click on the extension icon while watching a YouTube video. Enter a name for the bookmark and click "Add".
-- To delete a bookmark, click on the bookmark in the extension popup and then click on the delete button.
-- To edit a bookmark, click on the bookmark in the extension popup, edit the name, and click "Save".
+  - To add a bookmark, click on the extension icon while watching a YouTube video. Enter a name for the bookmark and click "Add".
+  - To delete a bookmark, click on the bookmark in the extension popup and then click on the delete button.
+  - To edit a bookmark, click on the bookmark in the extension popup, edit the name, and click "Save".
 
 6. **Using Ad Blocker**:
-- Ad blocking is automatic. Once the extension is enabled, it will block ads on YouTube videos.
+  - Ad blocking is automatic. Once the extension is enabled, it will block ads on YouTube videos.
 
 ## Understanding the Code:
 In this section, the main logic of the extension in the popup.js script is explained.
