@@ -48,19 +48,19 @@ Once loaded, the extension should appear in your list of installed extensions. C
 6. **Using Ad Blocker**:
 - Ad blocking is automatic. Once the extension is enabled, it will block ads on YouTube videos.
 
-  **Understanding the Code**:
-  In this section, the main logic of the extension in the popup.js script is explained.
+## Understanding the Code:
+In this section, the main logic of the extension in the popup.js script is explained.
 
-- showEditModal: Displays the edit modal for editing the bookmark text.
-- saveEditedNote: Saves the edited bookmark text.
-- showFullNote: Displays the full note when the truncated note is clicked.
-- addNewBookmark: Adds a new bookmark element to the list of bookmarks.
-- viewBookmarks: Displays all saved bookmarks for the current video.
-- onPlay: Jumps to the timestamp of the clicked bookmark.
-- onEdit: Opens the edit modal for the clicked bookmark.
-- onDelete: Deletes the clicked bookmark.
-- onDeleteAll: Deletes all bookmarks for the current video.
-- setBookmarkAttributes: Sets the attributes and event listeners for bookmark controls.
+  - showEditModal: Displays the edit modal for editing the bookmark text.
+  - saveEditedNote: Saves the edited bookmark text.
+  - showFullNote: Displays the full note when the truncated note is clicked.
+  - addNewBookmark: Adds a new bookmark element to the list of bookmarks.
+  - viewBookmarks: Displays all saved bookmarks for the current video.
+  - onPlay: Jumps to the timestamp of the clicked bookmark.
+  - onEdit: Opens the edit modal for the clicked bookmark.
+  - onDelete: Deletes the clicked bookmark.
+  - onDeleteAll: Deletes all bookmarks for the current video.
+  - setBookmarkAttributes: Sets the attributes and event listeners for bookmark controls.
 
 ## Support
 For any issues or feature requests, please open an issue in the GitHub repository or contact the developer at hanumappa2003@gmail.com.
